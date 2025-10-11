@@ -1,0 +1,20 @@
+a {
+    color: rgb(28, 14, 181);
+}
+.link{
+    background-color: cornflowerblue;
+}
+#para2{
+    font-size: 40px;
+    border: 1px dashed red;
+    margin-left: 20px;
+    padding-left: 10px;
+}
+#para3{
+    margin: 40px;
+    border: 1px solid black;
+    padding: 20px;
+    letter-spacing: 20px;
+   
+
+}
