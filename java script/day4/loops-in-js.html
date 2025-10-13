@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>for loop , for-in loop,for-of loop,while loop,do while loop</h1>
+    <script>
+        // for loop
+        let num=+prompt("Enter the number : ");
+        for( let i=0;i<=num;i++){
+            console.log(i);
+        }
+        // while loop
+        let num1 = +prompt("Enter a number: "); 
+        let count = 0;
+        while (num1 > 0) {
+            let digit = num1 % 10;
+            count = count + 1;
+            num1 = Math.floor(num1 / 10);
+        }
+        console.log("Result is: ", count);
+        let input;
+        // do-while loop
+        do {    
+         input = +prompt("Type 'yes' to continue, or anything else to stop:");
+        } while (input === "yes");
+        // for in loop - for strings abd array
+        console.log("Loop ended");
+        const fruits = ["apple", "banana", "cherry"];
+        for (let index in fruits) {
+            console.log(index);
+        }
+        // for-of loop - iterate the object 
+        const fruits1 = ["apple", "banana", "cherry"];
+
+        for (let fruit of fruits1) {
+            console.log(fruit);
+        }
+    </script>
+    
+</body>
+</html>

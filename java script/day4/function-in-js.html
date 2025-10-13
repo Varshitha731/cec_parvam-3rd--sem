@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>3 Ways to create a function in jss</h1>
+    <p>function declaration</p>
+    <p>function expresion</p> 
+    <p>arrow function</p> 
+    <pre>
+        1.function fun_name(parameters){
+            // body of functon
+        }
+        fun_name(arguments);
+        // function declaration
+        2.const fun_name =function(parameters){
+            // body of functions
+        }
+        fun_name(arguments);
+        // function expresion
+        3.const fun_name=(parameters) =>{
+            //body of function 
+        }
+        fun_name(arguments);
+        //arrow function
+    </pre>
+    <script>
+        // 1.function declaration 
+        function add(a,b){
+            console.log(" res : ",a+b);
+        }
+        add(10,30);
+        add(20,20);
+        // 2.function exprression
+        const mul=function(a,b){
+            console.log(" res : ",a*b);
+        }
+        mul(10,5);
+        // 3.arrow expression 
+        const div = (b,a) =>{
+            console.log("res : ",b/a);
+        }
+        div(10,2);
+        
+    </script>
+    
+</body>
+</html>

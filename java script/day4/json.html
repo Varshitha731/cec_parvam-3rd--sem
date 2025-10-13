@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    //java script object notation -json
+    //json does not contains function
+    //create key value pallindrome//store everything inside the " " except number and boolean values
+    //application program interface
+    //to communicate b/w front end and back end
+    <script>
+        let obj1 = {
+            firstName : "Prashanth",
+            lastName : " V " ,
+            age : 21 ,
+            email :" prasanth3107@gmail.com"
+        }
+        console.log("obj1 : ", obj1);
+        console.log("type of obj1 : ", typeof obj1);
+        let str1 = JSON.stringify(obj1);
+        console.log("str1 : ",str1);
+        console.log("type of str1 : ", typeof str1);
+        let obj2 = JSON.parse(str1);
+        console.log("obj2 : ",obj2);
+        console.log(" type of obj2 : ", typeof obj2);
+    </script>
+    
+</body>
+</html>
