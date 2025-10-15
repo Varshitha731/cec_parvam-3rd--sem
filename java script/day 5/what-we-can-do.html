@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p>1.we can change the content of  html .</p>  
+    <h1 id="tittle">Hello World </h1>
+    <button type="button" onclick="document.getElementById('tittle').innerText='Text change using js' ">change the content of h1 </button>
+    <p>2.we can change the html attribute . </p>
+    <img src="./off.png" alt="off" id="bulb">
+    <button type="button" onclick="document.getElementById('bulb').src='./on.gif '">Turn ON</button>
+    <button type="button" onclick="document.getElementById('bulb').src='./off.png '">Turn OFF</button>
+    <img src="./dora2.jpg" alt="off" id="dora">
+    <button type="button" onclick="document.getElementById('dora').src='./dora3.webp '">Turn ON</button>
+    <button type="button" onclick="document.getElementById('dora').src='./dora2.jpg'">Turn OFF</button>
+    <p>3.we can change the css .</p>
+    <div id="desc">Lorem, ipsum dolor.
+    </div>
+    <button onclick="document.getElementById('desc').style.color='purple'">
+        change background
+    </button>
+    <p>4.we can hide the html element .</p>
+    <h3 id="tittle3">Lorem, ipsum.</h3>
+    <button onclick="document.getElementById('tittle3').style.display='none ' ">Hide Ele</button>
+    <p>5. we can show the html element .</p>
+    <h2 id="heading_2" style="display: none ;" >heading 2 </h2>
+    <button onclick="document.getElementById('heading_2').style.display='block ' ">
+        slow ele
+    </button>
+  
+    
+</body>
+</html>
